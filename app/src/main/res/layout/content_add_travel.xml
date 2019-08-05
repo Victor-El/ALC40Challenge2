@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".AddTravel"
+    tools:showIn="@layout/activity_add_travel">
+
+    <EditText
+        android:id="@+id/destination-edit-text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginRight="16dp"
+        android:ems="10"
+        android:hint="Destination"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/description-edit-text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Description"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/destination-edit-text"
+        app:layout_constraintStart_toStartOf="@+id/destination-edit-text"
+        app:layout_constraintTop_toBottomOf="@+id/destination-edit-text" />
+
+    <EditText
+        android:id="@+id/amount-edit-text"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:hint="Amount"
+        android:inputType="number"
+        app:layout_constraintEnd_toEndOf="@+id/description-edit-text"
+        app:layout_constraintStart_toStartOf="@+id/description-edit-text"
+        app:layout_constraintTop_toBottomOf="@+id/description-edit-text" />
+
+    <Button
+        android:id="@+id/add-image-btn"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginLeft="32dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginRight="32dp"
+        android:background="@drawable/btn_material"
+        android:text="Add Image"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="@+id/amount-edit-text"
+        app:layout_constraintStart_toStartOf="@+id/amount-edit-text"
+        app:layout_constraintTop_toBottomOf="@+id/amount-edit-text" />
+
+    <ImageView
+        android:id="@+id/image-upload-view"
+        android:layout_width="137dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/add-image-btn"
+        app:layout_constraintStart_toStartOf="@+id/add-image-btn"
+        app:layout_constraintTop_toBottomOf="@+id/add-image-btn"
+        app:srcCompat="@android:drawable/ic_menu_report_image" />
+</android.support.constraint.ConstraintLayout>

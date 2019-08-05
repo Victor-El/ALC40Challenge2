@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1017887231262",
+    "firebase_url": "https://alc40challenge2.firebaseio.com",
+    "project_id": "alc40challenge2",
+    "storage_bucket": "alc40challenge2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1017887231262:android:250a18c2d6969c31",
+        "android_client_info": {
+          "package_name": "com.victor.alc40challenge2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1017887231262-pp6sbqouum3bg8pmjonl8l7dbufr8a2e.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.victor.alc40challenge2",
+            "certificate_hash": "da5675ec9bd880d46a9c9b6d4cff570cbc4e2973"
+          }
+        },
+        {
+          "client_id": "1017887231262-91sljrojnbr7crbj09suhb8fk7h2fao8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBAaSDF_oFmDjTmVRsonBNBOHV6J9kJd20"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1017887231262-91sljrojnbr7crbj09suhb8fk7h2fao8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
